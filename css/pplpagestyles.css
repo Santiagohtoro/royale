@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@200&family=Outfit:wght@100;500&family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.username{
+    color: white;
+}
+
+.user-account{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.material-symbols-outlined{
+    color: #f4f4f4;
+}
+
+header{
+    padding-right: 30px;
+    justify-content: space-between;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img{
+    height: 170px;
+}
+.container-card{
+    margin: 10% 5%;
+    height: 240px;
+    width: 255px;
+    box-shadow: 5px 1px 10px black;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.cash-flow{
+    line-height: 0;
+    margin-left: 10px;
+}
+.game-name{
+
+    margin: 3px 10px;
+}

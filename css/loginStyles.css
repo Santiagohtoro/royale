@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@200&family=Outfit:wght@100;500&family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+header{
+    height: 90px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    padding-top: 15px;
+    background-color: #090700;
+}
+.logo{
+    height: 60px;
+}
+
+
+.container{
+     display: flex;
+     justify-content: center;
+     background-image: url("/assets/cards.png");
+     background-repeat: no-repeat;
+     background-size: contain;
+}
+
+.hidden{
+    display: none;
+}
+
+.icon{
+    margin-top: 20px;
+    height: 150px;
+}
+
+.form-header{
+    background-color: #090700;
+    height: 200px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.form-group{
+    height: 69% ;
+    padding-top: 60px;
+    border-radius: 100px 0px 30px 30px ;
+    background-color: #f4f4f4;
+    text-align: center;
+    line-height: 60px;
+}
+
+.login-container{
+    width: 100%;
+    margin: 3%;
+    max-width: 400px;
+    height: 70vh;  
+    background-color: #090700;
+    border-radius: 30px;
+    box-shadow: 10px 10px 20px black;
+}
+
+input{
+    color: black;
+    width: 80%;
+    height: 40px;
+    border-radius: 14px;
+    border: 1px solid gainsboro;
+    padding-left: 10px;
+}
+
+.btn-login{
+    width: 80%;
+    height: 40px;
+    background-color: black;
+    border-radius: 14px;
+    color: white;
+}
+
+.footer-form{
+    margin-top: 9%;
+}
+

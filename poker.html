@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Blackjack v.2</title>
+  <link rel="stylesheet" href="./css/pokerStyle.css"><link rel="stylesheet" href="./css/loginStyles.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!doctype html>
+<html>
+	<head>
+		<title>Blackjack</title>
+	</head>
+	<body>
+		<div id="wrapper">
+			<header>
+				<a href="./pplpage.html"><img src="./assets/icono.png" alt="logo" class="logo"></a>
+			</header>
+			<div id="game">
+				<div id="dealer">
+					<div id="dscore">
+						Dealer has: <span></span>
+					</div>
+					<div id="dhand"></div>
+				</div>
+				<div id="player">
+					<div id="pscore">
+						You have: <span></span>
+					</div>
+					<div id="phand"></div>
+				</div>
+				<div id="result"></div>
+			</div>
+			<div id="actions">
+				<button id="deal">Deal!</button>
+				<button id="hit" disabled>Hit</button>
+				<button id="stand" disabled>Stand</button>
+				<button id="double" disabled>Double Down</button>
+				<button id="split" disabled>Split</button>
+				<button id="insurance" disabled>Insurance</button>
+				<strong>Wager:</strong> $<input id="wager" type="text" />
+				<span id="cash"><strong>Cash: $<span></span></strong></span>
+			</div>
+			<div id="bank"><strong>Winnings: $<span></span></strong></div>
+			<div id="alert"><span></span></div>
+     
+		</div>
+	</body>
+</html>
+<!-- partial -->
+  <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./scripts/poker.js"></script>
+
+</body>
+</html>
