@@ -24,7 +24,7 @@ header{
 .container{
      display: flex;
      justify-content: center;
-     background-image: url("/assets/cards.png");
+     background-image: url("../assets/cards.png");
      background-repeat: no-repeat;
      background-size: contain;
 }
