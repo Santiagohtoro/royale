@@ -79,6 +79,6 @@ const baseDeDatos = {
 
       function accesoConcedido(e) {
         usuario = JSON.parse(localStorage.getItem('usuario'));
-        location.replace('../pplpage.html');
+        location.replace(document.location.href+'/pplpage.html');
         }
   });
