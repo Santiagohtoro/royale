@@ -52,7 +52,17 @@ $spin.on('click',function(){
     $thisResult = '<li class="previous-result color-'+ color +'"><span class="previous-number">'+ randomNumber +'</span><span class="previous-color">'+ color +'</span></li>';
      
     $('.previous-list').prepend($thisResult);
-   
+    var value=$('.num-apuesta').val()
+    if(value == randomNumber){
+      $('h1').css({'background-color': ''+color+''});
+      $('h1').text("You win!!       "+value);
+      $('.num-apuesta').val("")
+    }else{
+      $('h1').css({'background-color': ''+color+''});
+      $('h1').text("You lose        "+value);
+      $('.num-apuesta').val("")
+    }
+
     
     }, timer);
   
@@ -65,6 +75,7 @@ $reset.on('click',function(){
   $(this).hide();
   $spin.show();
   $data.removeClass('reveal');
+  $('h1').text("");
 });
 
 // so you can swipe it too

@@ -594,3 +594,10 @@ body {
     transform: rotateX(0deg);
   }
 }
+
+h1{
+  display: flex;
+  margin: 1px;
+  padding: 12px;
+  color: #fff;
+}

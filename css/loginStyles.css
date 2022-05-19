@@ -46,7 +46,7 @@ header{
 }
 
 .form-group{
-    height: 69% ;
+    height: 446px ;
     padding-top: 60px;
     border-radius: 100px 0px 30px 30px ;
     background-color: #f4f4f4;
@@ -58,7 +58,7 @@ header{
     width: 100%;
     margin: 3%;
     max-width: 400px;
-    height: 70vh;  
+    height: 645.4px;  
     background-color: #090700;
     border-radius: 30px;
     box-shadow: 10px 10px 20px black;
