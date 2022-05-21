@@ -12,23 +12,23 @@ window.addEventListener('load', () => {
     
     let roulette = document.querySelector(".roulette-icon")
     roulette.addEventListener('click', (e)=>{
-        location.replace('../roulette.html');
+        location.replace('/roulette.html');
     } )
 
     let poker = document.querySelector(".poker-icon")
     poker.addEventListener('click', (e)=>{
-        location.replace('../poker.html');
+        location.replace('/poker.html');
     } )
 
     let slots = document.querySelector(".slots-icon")
     slots.addEventListener('click', (e)=>{
-        location.replace('../slots.html');
+        location.replace('/slots.html');
     } )
 
     let exit = document.querySelector(".exit")
     exit.addEventListener('click', (e)=>{
         localStorage.clear();
-        window.location.replace('/index.html');
+        window.location.replace('/index.php');
     } )
 })
 /*cerrarSesion.addEventListener('click', (e)=>{

@@ -1,3 +1,8 @@
+<?php
+include 'code-register.php';
+?>
+    
+    
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,15 +24,20 @@
                 <img class="icon"src="./assets/Poppins ExtraBold.png" alt="Casino Royal">
             </div>
             <div class="form-group">
-                <form>
-                    <h2>Login</h2>
-                    <input class="emailInput" type="email" name="Email" placeholder="Email">
-                    <input class="passwordInput" type="password" name="Password" placeholder="Password">
+                <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
+                    <h2>Registrarse</h2>
+                    <input class="emailInput" type="text" name="username" placeholder="User">
+                    <span class="msg-error"><?php echo$username_err;?></span>
+                    <input class="emailInput" type="email" name="email" placeholder="Email">
+                    <span class="msg-error"><?php echo$email_err;?></span>
+
+                    <input class="passwordInput" type="password" name="password" placeholder="Password">
+                    <span class="msg-error"><?php echo$password_err;?></span>
                     <div id="error-container" class="hidden">
                     </div>
-                    <button class="btn-login" type="submit">Ingresar</button> 
+                    <button class="btn-login" type="submit">Registrarse</button> 
                 </form>
-                <p class="footer-form">¿No tienes una cuenta? <a href="register.html">Registrate</a></p>
+                <p class="footer-form">¿Ya tienes una cuenta? <a href="index.php">Iniciar sesion</a></p>
             </div>
         </div>
     </div>

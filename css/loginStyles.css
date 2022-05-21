@@ -29,6 +29,21 @@ header{
      background-size: contain;
 }
 
+
+.container-card a {
+    justify-content: end;
+    color: green;
+    text-decoration: none;
+    margin-left: 70%;
+}
+
+.logo a{
+    justify-content: end;
+    color: red;
+    text-decoration: none;
+    margin-left: 70%;
+}
+
 .hidden{
     display: none;
 }
@@ -46,7 +61,7 @@ header{
 }
 
 .form-group{
-    height: 446px ;
+    
     padding-top: 60px;
     border-radius: 100px 0px 30px 30px ;
     background-color: #f4f4f4;
@@ -84,4 +99,17 @@ input{
 .footer-form{
     margin-top: 9%;
 }
+/* error text */
+.msg-error{
+    color: red;
+    display: block;
+    margin-top: 1px;
+}
 
+/* .a-btn{
+    outline: 0px;
+    color: green;
+    text-decoration: none;
+    text-align: end;
+}
+ */
